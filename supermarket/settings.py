@@ -157,11 +157,11 @@ DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 ## Host 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',  
-        'NAME': 'Mai123$supermarket_db',             # اسم القاعدة
-        'USER': 'Mai123',                     # اسم المستخدم
-        'PASSWORD': 'mai123@mai123@',          # كلمة المرور
-        'HOST': 'Mai123.mysql.pythonanywhere-services.com',
-        'PORT': '3306',                       # 5432 لـ PostgreSQL
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'supermarket_db_45y4',          # اسم قاعدة البيانات
+        'USER': 'supermarket_db_45y4_user',     # اسم المستخدم
+        'PASSWORD': 'zBcB3xWhzcw1Mybuo1LxKJ94MSeWQssz',  # كلمة المرور
+        'HOST': 'dpg-d2c6r7ur433s73acv0og-a.oregon-postgres.render.com',  # Host (استخدم External URL)
+        'PORT': '5432',                         # البورت
     }
 }
